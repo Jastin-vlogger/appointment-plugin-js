@@ -1,0 +1,106 @@
+#appointment-container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#slots {
+    margin: 10px 0;
+}
+
+.slot-btn {
+    margin: 5px;
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.slot-btn:disabled {
+    background: gray;
+}
+
+#booking-form input {
+    display: block;
+    width: 94%;
+    margin: 5px 0;
+    padding: 8px;
+}
+
+#book-appointment {
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.slot:hover {
+    background: #ddd;
+  }
+  
+  .slot-btn.selected {
+    background-color: #007bff;
+    color: white;
+  }
+  #appointment-container {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  input[type="date"] {
+    width: 94%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background: #f9f9f9;
+    cursor: pointer;
+    transition: border 0.3s ease-in-out;
+  }
+  
+  input[type="date"]:focus {
+    border-color: #007bff;
+    background: #fff;
+  }
+  
+  button#fetch-slots {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  button#fetch-slots:hover {
+    background: #0056b3;
+  }
+  
+  @media (max-width: 480px) {
+    #appointment-container {
+      width: 90%;
+    }
+  }
+  
